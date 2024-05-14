@@ -1,0 +1,8 @@
+.nav-item.nav-link.aa {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+  
+.nav-item.nav-link.aa:hover {
+    transform: translateY(-3px) rotateX(10deg);
+    color: #EDDEA4 !important;;
+}

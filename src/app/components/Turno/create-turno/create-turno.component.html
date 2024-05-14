@@ -1,0 +1,108 @@
+<form class="mt-3" [formGroup]="fechaForm" (ngSubmit)="getTurnosPosibles()">
+  <div class="container d-flex align-items-center justify-content-center ">
+    <div class="card col-lg-12">
+      <div class="card-body text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <!--Card profesional-->
+              <div class="card bg-light shadow">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="../../../../assets/img/muser-dr-512.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="card-body col-md-9">
+                    <span>
+                      <h3 class="card-title">{{professional.nombre}} {{professional.apellido}}</h3>
+                    </span>
+                    <span>
+                      <p>
+                        Este profesional atiende los dias: {{dayName}}
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!--row vacio estético-->
+              <div class="row mt-5 mb-3"></div>
+              <!--Input de fecha y selectpickers-->
+              <div class="row">
+                <div class="col-12 mb-3">
+                  <input type="date" formControlName="fecha" class="form-control" placeholder="Fecha"/>
+                </div>
+                <div class="col-12 mb-3 select-container">
+                  <select class="custom-select" (change)="update({e: $event})">
+                    <option disabled selected value="">Seleccione una Obra Social</option>
+                    <option *ngFor="let os of listOs" [value]="os._id">{{ os.nombre }}</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3 select-container">
+                  <select class="custom-select" (change)="updatePrac({e: $event})">
+                    <option disabled selected value="">Seleccione una Práctica</option>
+                    <option *ngFor="let p of listPrac" [value]="p._id">{{ p.nombre }}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!--Horarios disponibles-->
+            <div class="col-md-7">
+              <div class="card bg-light shadow">
+                <div class="card-body">
+
+                  <div *ngIf="co==1" class="container d-flex justify-content-center align-items-center">
+                    <div class="card ">
+                      <div class="card-body text-center table-responsive">
+                        <table class="table" style="display: flex; justify-content: center; align-items: center;">
+                          <thead>
+                          <tr>
+                            <th scope="col">Horarios Disponibles</th>
+                          </tr>
+                          <tr>
+                            <span>{{ this.dayName }}, {{ this.monthName }} {{ this.dayNumber }} </span>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <div>
+                            <div *ngIf="token; else noTokenMessage">
+                              <table>
+                                <ng-container *ngFor="let group of turnos; let i = index">
+                                  <tr>
+                                    <td *ngFor="let t of turnos.slice(i * 4, (i + 1) * 4)" style="margin: 10px 0; ">
+                                    <span>
+                                      <button (click)="createTurno(t.hora)"
+                                              class="btn btn-info"
+                                              style="min-width: 68.33px;"
+                                              [disabled]="t.busy">
+                                      {{ decimalAHora(t.hora) }}
+                                      </button>
+                                     </span>
+                                    </td>
+                                  </tr>
+                                </ng-container>
+                              </table>
+                            </div>
+                            <ng-template #noTokenMessage>
+                              <h3>Debe registrarse para ver los horarios disponibles</h3>
+                            </ng-template>
+                          </div>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Btn buscar Horarios-->
+        <div class="d-grid gap-2 d-md-flex justify-content-center">
+          <button type="submit" (click)="co=1; this.assignValues(this.fechaForm.get('fecha')?.value)"
+                  [disabled]="fechaForm.invalid" class="btn btn-info btn-lg float-end"> Buscar Turno
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+

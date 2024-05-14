@@ -1,0 +1,81 @@
+<div class="container-md">
+
+  <mdb-carousel [controls]="true" [indicators]="false" [dark]="true">
+    <mdb-carousel-item>
+      <img src="/assets/img/img1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Buen trato</h5>
+        <p>Clientes satisfechos.</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img src="/assets/img/img2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Equipamiento de última generación</h5>
+        <p>Contamos con lo último en tecnología para diagnosticar a nuestros pacientes</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img src="/assets/img/img3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Los mejores profesionales</h5>
+        <p>Nuestros profesionales son excelentes</p>
+      </div>
+    </mdb-carousel-item>
+
+
+  </mdb-carousel>
+
+</div>
+
+<footer id="bottom" class="text-center text-lg-start" style="background-color: #1B4D3E">
+  <div class="container p-4">
+
+    <div class="row">
+
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h1 class="text" style="color: white">Nosotros</h1>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <i class="fas fa-eye fa-2x text"></i>
+            <span class="text">       Clinica de Ojos</span>
+          </li>
+          <li>
+            <i class="fas fa-map-marker-alt fa-2x text-white"></i>
+            <span class="text-white"> Zeballos 1341, Rosario</span>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt fa-2x text-white"></i>
+            <span class="text-white">341587123</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-2x text-white"></i>
+
+            <span class="text-white">clinicade@ojos.com.ar</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- leaflets map -->
+      <!-- leaflets api script -->
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+              integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+              crossorigin=""></script>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <div class="card mapa-card">
+          <div class="card-body">
+            <div id="map"></div>
+          </div>
+          <div class="card-footer">
+            <p>Clinica de Ojos, Tu elección segura</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+

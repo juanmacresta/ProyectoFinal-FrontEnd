@@ -56,6 +56,14 @@
                 <span>La dirección de e-mail <strong>es obligatoria</strong></span>
               </div>
             </div>
+            <div class="mb-3">
+              <input type="date" formControlName="fecha_nac" class="form-control form-control-lg"
+                     placeholder="Fecha de Nacimiento">
+              <div class="text-danger"
+                   *ngIf="professionalForm.get('fecha_nac')?.hasError('required') && professionalForm.get('fecha_nac')?.touched">
+                <span>La fecha de nacimiento <strong>es obligatoria</strong></span>
+              </div>
+            </div>
 
 
 

@@ -33,4 +33,8 @@ export class TurnoService {
   getTurno(_id: String): Observable<any> {
     return this.http.get(`${this.url}/${_id}`)
   }
+
+  getTurnosByProf(_id: String): Observable<Turno[]> {
+    return this.http.get<Turno[]>(`${this.url}/${_id}`)
+  }
 }

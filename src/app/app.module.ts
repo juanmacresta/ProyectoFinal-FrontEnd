@@ -25,6 +25,7 @@ import {MdbCarouselModule} from "mdb-angular-ui-kit/carousel";
 import {LoginComponent} from './components/Paciente/login/login.component';
 import {AddOsComponent} from './components/Professional/add-os/add-os.component';
 import {AddPracticeComponent} from './components/Professional/add-practice/add-practice.component';
+import { ListTurnosComponent } from './components/Turno/list-turnos/list-turnos/list-turnos.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {AddPracticeComponent} from './components/Professional/add-practice/add-p
     LoginComponent,
     AddOsComponent,
     AddPracticeComponent,
+    ListTurnosComponent,
   ],
   imports: [
     MdbCarouselModule,

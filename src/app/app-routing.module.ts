@@ -14,6 +14,7 @@ import {ListProfessionalComponent} from "./components/Professional/list-professi
 import {CreateProfessionalComponent} from "./components/Professional/create-professional/create-professional.component";
 import {ListOneProfComponent} from "./components/Professional/list-one-prof/list-one-prof.component";
 import {CreateTurnoComponent} from "./components/Turno/create-turno/create-turno.component";
+import {ListTurnosComponent} from "./components/Turno/list-turnos/list-turnos/list-turnos.component";
 import {AddOsComponent} from "./components/Professional/add-os/add-os.component";
 import {LoginComponent} from "./components/Paciente/login/login.component";
 import {AddPracticeComponent} from "./components/Professional/add-practice/add-practice.component";
@@ -50,6 +51,7 @@ const routes: Routes = [
 
   //Turnos Routes
   {path: 'create-turno/:id', component: CreateTurnoComponent},
+  {path: 'list-turnos/:id', component: ListTurnosComponent},
 
   //Default Route
   {path: '**', redirectTo: 'menu', pathMatch: 'full'}];

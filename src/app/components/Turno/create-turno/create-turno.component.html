@@ -64,6 +64,7 @@
                           <tbody>
                           <div>
                             <div *ngIf="token; else noTokenMessage">
+                              <div *ngIf="!(errorString); else errorMessage">
                               <table>
                                 <ng-container *ngFor="let group of turnos; let i = index">
                                   <tr>
@@ -81,8 +82,13 @@
                                 </ng-container>
                               </table>
                             </div>
+                          </div>
                             <ng-template #noTokenMessage>
                               <h3>Debe registrarse para ver los horarios disponibles</h3>
+                            </ng-template>
+                            <ng-template #errorMessage>
+                            
+                              <h3>{{this.errorString}}</h3>
                             </ng-template>
                           </div>
                         </table>

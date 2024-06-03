@@ -28,6 +28,8 @@ export class CreateTurnoComponent implements OnInit {
   listId2: String[] = [];
   listPrac: Practice[] = [];
   listPaciente: Paciente[] = [];
+  errorString:string;
+  
 
   fechaForm: FormGroup;
   professional!: Professional;
@@ -79,6 +81,7 @@ export class CreateTurnoComponent implements OnInit {
 
 
   getTurnosPosibles() {
+    this.errorString='';
     const fecha = this.formatDate(this.fechaForm.get('fecha')?.value);
     if (this.id !== null) {
       this._profService.retrieveProfessional(this.id, fecha).subscribe(
@@ -86,7 +89,9 @@ export class CreateTurnoComponent implements OnInit {
           this.turnos = (res);
         }, error => {
           console.log(error);
+          this.errorString=error.error.message;
           this.fechaForm.reset();
+        
         }
       )
     }

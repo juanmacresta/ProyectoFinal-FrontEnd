@@ -26,6 +26,7 @@ import {LoginComponent} from './components/Paciente/login/login.component';
 import {AddOsComponent} from './components/Professional/add-os/add-os.component';
 import {AddPracticeComponent} from './components/Professional/add-practice/add-practice.component';
 import { ListTurnosComponent } from './components/Turno/list-turnos/list-turnos/list-turnos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,14 @@ import { ListTurnosComponent } from './components/Turno/list-turnos/list-turnos/
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    ToastrModule.forRoot(),
+    ToastrModule.forRoot({
+      timeOut: 5000,
+      positionClass: 'toast-top-right',
+      preventDuplicates: true,
+      closeButton: true,
+      progressBar: true,
+    }),
+    BrowserAnimationsModule,
     HttpClientModule
   ],
   providers: [],

@@ -66,13 +66,14 @@ export class CreateProfessionalComponent implements OnInit {
       direccion: this.professionalForm.get('direccion')?.value,
       fecha_nac: this.professionalForm.get('fecha_nac')?.value,
     }
-    console.log(PROFESSIONAL);
+    //console.log(PROFESSIONAL);
     this._professionalService.createProfessional(PROFESSIONAL).subscribe(data=> {
       this.toastr.success('Professional registrado con exito ', 'Professional Registrado!');
       this.router.navigate(['/list-professional']);
     }, error => {
       console.log(error);
       this.professionalForm.reset();
+      this.toastr.error(error.error.message || 'Error al registrar el professional', 'Error');
     })
   }
 

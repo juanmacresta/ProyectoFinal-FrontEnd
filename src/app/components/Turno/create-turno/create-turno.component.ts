@@ -136,6 +136,7 @@ export class CreateTurnoComponent implements OnInit {
         this.turnos = [];
       }, error => {
         console.log(error)
+        this.toastr.error(error.error.message || 'Error al registrar el professional', 'Error');
       })
     }
   }

@@ -71,6 +71,7 @@ export class CrearPacienteComponent implements OnInit {
     }, error => {
       console.log(error);
       this.pacienteForm.reset();
+      this.toastr.error(error.error.message || 'Error al registrar el professional', 'Error');
     })
 
 
@@ -93,6 +94,7 @@ export class CrearPacienteComponent implements OnInit {
     }, error => {
       console.log(error);
       this.pacienteForm.reset();
+      
     })
   }
 

@@ -1,5 +1,12 @@
 <div class="container">
   <h2 class="title">Listado de turnos por profesional</h2>
+  
+  <!-- Campo de entrada para filtrar por día -->
+  <div class="filter-container">
+    <input type="date" [(ngModel)]="filterDate" placeholder="Selecciona una fecha" />
+    <button (click)="applyFilter()">Filtrar</button>
+  </div>
+  
   <div class="table-container">
     <table class="styled-table">
       <thead>
@@ -13,7 +20,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let turno of turnosDetallados">
+        <tr *ngFor="let turno of filteredTurnos">
           <td>{{ turno.dia | date: 'dd-MM-yyyy' }}</td>
           <td>{{ turno.hsDesde }} hs</td>
           <td>{{ turno.pacienteNombre }} {{ turno.pacienteApellido }}</td>

@@ -6,6 +6,7 @@ import {ProfessionalService} from "../../../../services/professional.service";
 import {PacienteService} from "../../../../services/paciente.service";
 import {ObraSocialService} from "../../../../services/obra-social.service";
 import {PracticeService} from "../../../../services/practice.service";
+import * as moment from "moment";
 
 @Component({
   selector: 'app-list-turnos',
@@ -15,6 +16,8 @@ import {PracticeService} from "../../../../services/practice.service";
 export class ListTurnosComponent implements OnInit {
   turnos: Turno[] = [];
   turnosDetallados: any[] = [];
+  filteredTurnos: any[] = [];
+  filterDate: string = '';
 
   constructor(
     private turnoService: TurnoService,
@@ -58,6 +61,9 @@ export class ListTurnosComponent implements OnInit {
               detalleTurno.practicaNombre = practica.nombre;
 
               this.turnosDetallados.push(detalleTurno);
+
+              // Actualizar la lista de turnos filtrados
+              this.filteredTurnos = [...this.turnosDetallados];
             });
           });
         });
@@ -65,4 +71,15 @@ export class ListTurnosComponent implements OnInit {
     });
   }
 
+  applyFilter(): void {
+    if (this.filterDate) {
+      const selectedDate = new Date(this.filterDate);
+      this.filteredTurnos = this.turnosDetallados.filter(turno => {
+        const turnoDate = new Date(turno.dia);
+        return turnoDate.toDateString() === selectedDate.toDateString();
+      });
+    } else {
+      this.filteredTurnos = [...this.turnosDetallados];
+    }
+  }
 }

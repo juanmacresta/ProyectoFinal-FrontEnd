@@ -73,13 +73,23 @@ export class ListTurnosComponent implements OnInit {
 
   applyFilter(): void {
     if (this.filterDate) {
-      const selectedDate = new Date(this.filterDate);
+      const selectedDate = moment(this.filterDate).startOf('day');
       this.filteredTurnos = this.turnosDetallados.filter(turno => {
-        const turnoDate = new Date(turno.dia);
-        return turnoDate.toDateString() === selectedDate.toDateString();
+        const turnoDate = moment(turno.dia).startOf('day');
+        return selectedDate.isSame(turnoDate);
       });
     } else {
       this.filteredTurnos = [...this.turnosDetallados];
     }
+  }
+  
+  decimalAHora(hs: number) {
+    let horas = Math.floor(hs), // Obtenemos la parte entera
+      restoHoras = Math.floor(hs % 1 * 100), // Obtenemos la parde decimal
+      decimalMinutos = restoHoras * 60 / 100, // Obtenemos los minutos expresado en decimal
+      minutos = Math.floor(decimalMinutos), // Obtenemos la parte entera
+      restoMins = Math.floor(decimalMinutos % 1 * 100), // Obtenemos la parde decimal
+      segundos = Math.floor(restoMins * 60 / 100); // Obtenemos los segundos expresado en entero
+    return (`${('00' + horas).slice(-2)}:${('00' + minutos).slice(-2)}`);
   }
 }

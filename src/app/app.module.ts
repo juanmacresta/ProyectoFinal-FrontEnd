@@ -27,6 +27,7 @@ import {AddOsComponent} from './components/Professional/add-os/add-os.component'
 import {AddPracticeComponent} from './components/Professional/add-practice/add-practice.component';
 import { ListTurnosComponent } from './components/Turno/list-turnos/list-turnos/list-turnos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HistorialPacienteComponentComponent } from './components/Paciente/historial-paciente-component/historial-paciente-component.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AddOsComponent,
     AddPracticeComponent,
     ListTurnosComponent,
+    HistorialPacienteComponentComponent,
   ],
   imports: [
     MdbCarouselModule,

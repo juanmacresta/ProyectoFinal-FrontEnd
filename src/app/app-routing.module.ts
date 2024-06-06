@@ -4,6 +4,7 @@ import {AuthGuard} from '@auth0/auth0-angular'
 // Componentes
 import {ListarPacientesComponent} from "./components/Paciente/listar-pacientes/listar-pacientes.component";
 import {CrearPacienteComponent} from "./components/Paciente/crear-paciente/crear-paciente.component";
+import { HistorialPacienteComponentComponent } from './components/Paciente/historial-paciente-component/historial-paciente-component.component';
 import {MenuComponent} from "./components/Index/menu/menu.component";
 import {CreatePracticeComponent} from "./components/Practice/create-practice/create-practice.component";
 import {ListPracticeComponent} from "./components/Practice/list-practice/list-practice.component";
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path: 'editar-paciente/:id', component: CrearPacienteComponent},
   {path: 'list-paciente', component: ListarPacientesComponent},
   {path: 'login', component: LoginComponent},
+  { path: 'historial-paciente/:id', component: HistorialPacienteComponentComponent },
 
   //Practice Routes
   {path: 'create-practice', component: CreatePracticeComponent},

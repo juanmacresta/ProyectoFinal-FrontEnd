@@ -37,4 +37,8 @@ export class TurnoService {
   getTurnosByProf(_id: String): Observable<Turno[]> {
     return this.http.get<Turno[]>(`${this.url}/${_id}`)
   }
+  
+  getTurnosByPaciente(_id: String): Observable<Turno[]> {
+    return this.http.get<Turno[]>(`${this.url}/paciente/${_id}`)
+  }
 }

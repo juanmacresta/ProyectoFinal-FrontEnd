@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TurnoService } from '../../../../services/turno.service';
 import {Turno} from "../../../../models/turno";
+import { RouterModule, Router } from '@angular/router';
 import {ProfessionalService} from "../../../../services/professional.service";
 import {PacienteService} from "../../../../services/paciente.service";
 import {ObraSocialService} from "../../../../services/obra-social.service";
 import {PracticeService} from "../../../../services/practice.service";
 import * as moment from "moment";
+
 
 @Component({
   selector: 'app-list-turnos',
@@ -83,6 +85,14 @@ export class ListTurnosComponent implements OnInit {
     }
   }
   
+  sortTurnos(order: string): void {
+    if (order === 'asc') {
+      this.filteredTurnos.sort((a, b) => moment(a.dia).unix() - moment(b.dia).unix());
+    } else if (order === 'desc') {
+      this.filteredTurnos.sort((a, b) => moment(b.dia).unix() - moment(a.dia).unix());
+    }
+  }
+
   decimalAHora(hs: number) {
     let horas = Math.floor(hs), // Obtenemos la parte entera
       restoHoras = Math.floor(hs % 1 * 100), // Obtenemos la parde decimal

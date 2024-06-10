@@ -28,6 +28,7 @@ import {AddPracticeComponent} from './components/Professional/add-practice/add-p
 import { ListTurnosComponent } from './components/Turno/list-turnos/list-turnos/list-turnos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HistorialPacienteComponentComponent } from './components/Paciente/historial-paciente-component/historial-paciente-component.component';
+import { EditTurnoComponent } from './components/Turno/edit-turno/edit-turno.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { HistorialPacienteComponentComponent } from './components/Paciente/histo
     AddPracticeComponent,
     ListTurnosComponent,
     HistorialPacienteComponentComponent,
+    EditTurnoComponent,
   ],
   imports: [
     MdbCarouselModule,

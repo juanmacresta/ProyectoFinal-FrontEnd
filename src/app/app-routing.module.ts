@@ -19,6 +19,7 @@ import {ListTurnosComponent} from "./components/Turno/list-turnos/list-turnos/li
 import {AddOsComponent} from "./components/Professional/add-os/add-os.component";
 import {LoginComponent} from "./components/Paciente/login/login.component";
 import {AddPracticeComponent} from "./components/Professional/add-practice/add-practice.component";
+import { EditTurnoComponent } from './components/Turno/edit-turno/edit-turno.component';
 
 const routes: Routes = [
 
@@ -54,6 +55,7 @@ const routes: Routes = [
   //Turnos Routes
   {path: 'create-turno/:id', component: CreateTurnoComponent},
   {path: 'list-turnos/:id', component: ListTurnosComponent},
+  { path: 'edit-turno/:id', component: EditTurnoComponent },
 
   //Default Route
   {path: '**', redirectTo: 'menu', pathMatch: 'full'}];

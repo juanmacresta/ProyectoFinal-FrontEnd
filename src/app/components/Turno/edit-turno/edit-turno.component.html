@@ -1,0 +1,63 @@
+<div class="edit-turno-container">
+    <h2>Editar Turno</h2>
+    <form [formGroup]="editTurnoForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="costo">Costo</label>
+        <input id="costo" formControlName="costo" type="number" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="pagado">Pagado</label>
+        <select id="pagado" formControlName="pagado" class="form-control">
+          <option [value]="true">Sí</option>
+          <option [value]="false">No</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="observacion">Observación</label>
+        <textarea id="observacion" formControlName="observacion" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="editTurnoForm.invalid">Guardar</button>
+    </form>
+  </div>
+
+  <style>
+    .edit-turno-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primary:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+  </style>

@@ -6,6 +6,7 @@ import {ListarPacientesComponent} from "./components/Paciente/listar-pacientes/l
 import {CrearPacienteComponent} from "./components/Paciente/crear-paciente/crear-paciente.component";
 import { HistorialPacienteComponentComponent } from './components/Paciente/historial-paciente-component/historial-paciente-component.component';
 import {MenuComponent} from "./components/Index/menu/menu.component";
+import {IndexComponent} from "./components/Index/index/index.component";
 import {CreatePracticeComponent} from "./components/Practice/create-practice/create-practice.component";
 import {ListPracticeComponent} from "./components/Practice/list-practice/list-practice.component";
 import {CreateOSComponent} from "./components/OS/create-os/create-os.component";
@@ -24,8 +25,8 @@ import { EditTurnoComponent } from './components/Turno/edit-turno/edit-turno.com
 const routes: Routes = [
 
   //Menu Route
+  {path: 'inicio', component: IndexComponent},
   {path: 'menu', component: MenuComponent},
-
   //Paciente Routes
   {path: 'crear-paciente', component: CrearPacienteComponent},
   {path: 'editar-paciente/:id', component: CrearPacienteComponent},
@@ -58,7 +59,7 @@ const routes: Routes = [
   { path: 'edit-turno/:id', component: EditTurnoComponent },
 
   //Default Route
-  {path: '**', redirectTo: 'menu', pathMatch: 'full'}];
+  {path: '**', redirectTo: 'inicio', pathMatch: 'full'}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

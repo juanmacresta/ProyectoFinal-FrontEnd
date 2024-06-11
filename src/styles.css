@@ -1,30 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-
-  background: #CAF4FF; /*#085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CAF4FF, #CAF4FF);
-  background: linear-gradient(to right, #CAF4FF, #CAF4FF);
-
+  margin: 0;
+  line-height: normal;
 }
 
-@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+:root {
+  /* fonts */
+  --body-3: Inter;
 
-.navbar {
-  background-color: #5AB2FF;
+  /* font sizes */
+  --body-3-size: 14px;
+  --body-2-size: 16px;
+  --heading-5-size: 24px;
+  --font-size-lgi: 19px;
+  --heading-4-size: 32px;
+  --font-size-7xl: 26px;
+  --button-size: 18px;
+  --heading-1-size: 56px;
+  --font-size-15xl: 34px;
+  --font-size-26xl: 45px;
+  --heading-6-size: 20px;
 
-}
+  /* Colors */
+  --white: #fff;
+  --color-darkslategray-100: #053b3f;
+  --secondary: #03272a;
+  --aquamarine: #4fe5b5;
+  --text: #808586;
+  --primary: #010c0d;
+  --color-gray-100: rgba(255, 255, 255, 0.2);
+  --gray: #cdd8d9;
+  --gray-light: #f8fafa;
+  --cyan-2: #55e2d4;
+  --color-turquoise-100: #00d3be;
 
-.navbar-brand {
-  font-family: "Baskerville Old Face";
-  max-height: 40px;
-  margin-top: -10px;
+  /* Gaps */
+  --gap-3xl: 22px;
+  --gap-xl: 20px;
+  --gap-3xs-5: 9.5px;
+  --gap-77xl: 96px;
+  --gap-5xl: 24px;
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-3xs: 10px;
+  --gap-11xl: 30px;
+  --gap-25xl: 44px;
+  --gap-xs: 12px;
 
-}
-
-.logo {
-  color: white;
-}
-
-.titulo {
-  font-size: 1.8rem;
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-7xs: 6px;
+  --padding-131xl: 150px;
+  --padding-15xl: 34px;
+  --padding-21xl: 40px;
+  --padding-7xs-5: 5.5px;
+  --padding-101xl: 120px;
+  --padding-59xl: 78px;
+  --padding-32xl: 51px;
+  --padding-11xs: 2px;
+  --padding-167xl: 186px;
+  --padding-60xl: 79px;
+  --padding-10xs: 3px;
 }

@@ -1,25 +1,85 @@
-<nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <img width="55" height="55" src="https://img.icons8.com/clouds/100/tooth.png" alt="tooth"/>
-    <a style="margin-top:5px;" class="navbar-brand text-light" href="#">
-      Clinica Odontológica
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <ul class="navbar-nav me-auto" style="margin-top: 5px;"> 
-      <a class="nav-item nav-link text-light aa" href="list-professional">Profesionales</a>
-      <a class="nav-item nav-link text-light aa" [routerLink]="['/list-turnos', '65f0eea559f713b5d8584b1c']">Turnos</a>
-      <a class="nav-item nav-link text-light aa" href="list-practice">Practicas</a>
-      <a class="nav-item nav-link text-light aa" href="list-os">Obra Sociales</a>
-      <a class="nav-item nav-link text-light aa" href="bottom">Contacto</a>
-      <a *ngIf="token==null" class="nav-item nav-link text-light ms-auto aa" href="login">Login</a>
-      <a *ngIf="token!=null" (click)="cerrarSec()" class="nav-item nav-link text-light ms-auto aa" href="#">LogOut</a>
-    </ul>
-    <div>
+<header class="header">
+  <div class="header-top">
+    <div class="icon-list-1">
+      <img
+        class="map-pin-icon"
+        loading="lazy"
+        alt=""
+        src="./public/mappin.svg"
+      />
+  
+      <div class="jl-danau-bratan">
+        Argentina, Rosario, Zeballos 13553
+      </div>
+    </div>
+    <div class="icon-list-2">
+      <div class="icon-list-11">
+        <div class="phone-mail-icons">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_410)">
+            <path d="M14.6667 11.28V13.28C14.6674 13.4657 14.6294 13.6494 14.555 13.8195C14.4806 13.9897 14.3715 14.1424 14.2347 14.2679C14.0979 14.3934 13.9364 14.489 13.7605 14.5485C13.5846 14.6079 13.3983 14.63 13.2133 14.6133C11.1619 14.3904 9.19134 13.6894 7.46001 12.5667C5.84923 11.5431 4.48356 10.1774 3.46001 8.56665C2.33333 6.82745 1.63217 4.84731 1.41334 2.78665C1.39668 2.60229 1.41859 2.41649 1.47767 2.24107C1.53676 2.06564 1.63172 1.90444 1.75652 1.76773C1.88131 1.63102 2.03321 1.52179 2.20253 1.447C2.37186 1.37221 2.5549 1.33349 2.74001 1.33332H4.74001C5.06354 1.33013 5.3772 1.4447 5.62251 1.65567C5.86783 1.86664 6.02806 2.15961 6.07334 2.47998C6.15775 3.12003 6.31431 3.74847 6.54001 4.35332C6.6297 4.59193 6.64911 4.85126 6.59594 5.10057C6.54277 5.34988 6.41925 5.57872 6.24001 5.75998L5.39334 6.60665C6.34238 8.27568 7.72431 9.65761 9.39334 10.6067L10.24 9.75998C10.4213 9.58074 10.6501 9.45722 10.8994 9.40405C11.1487 9.35088 11.4081 9.37029 11.6467 9.45998C12.2515 9.68568 12.88 9.84224 13.52 9.92665C13.8439 9.97234 14.1396 10.1355 14.351 10.385C14.5624 10.6345 14.6748 10.953 14.6667 11.28Z" stroke="#010C0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_1_410">
+            <rect width="16" height="16" fill="white"/>
+            </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="website" style="margin-right:3px;">+54 341 4444 2222</div>
+      </div>
+      <div class="contact-separator">
+        <div class="contact-separator-child"></div>
+      </div>
+      <div class="icon-list-3">
+        <div class="mail-wrapper" style="margin-left:5px;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.66668 2.66675H13.3333C14.0667 2.66675 14.6667 3.26675 14.6667 4.00008V12.0001C14.6667 12.7334 14.0667 13.3334 13.3333 13.3334H2.66668C1.93334 13.3334 1.33334 12.7334 1.33334 12.0001V4.00008C1.33334 3.26675 1.93334 2.66675 2.66668 2.66675Z" stroke="#010C0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14.6667 4L8.00001 8.66667L1.33334 4" stroke="#010C0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="hihappydentalcom" style="margin-left:5px;">clinc@happydental.com</div>
+      </div>
+    </div>
+  </div>  
+  <div class="header-bottom">
+    <div class="header-bottom1">
+      <div class="logo-wrapper">
+        <div class="logo-and-menu">
+          <img width="55" height="55" src="https://img.icons8.com/clouds/100/tooth.png" alt="tooth"/>
+          <h1 class="happydental">
+            <span class="happy">HAPPY</span>
+            <span class="dental">DENTAL</span>
+          </h1>
+          <div class="logo-separator-wrapper">
+            <div class="logo-separator"></div>
+          </div>
+          <nav class="menu-wrapper">
+            <nav class="menu">
+              <div class="home1"><a class="nav-item nav-link text-dark aa" href="inicio">Inicio</a></div>
+              <div class="home1"><a class="nav-item nav-link text-dark aa" href="list-professional">Profesionales</a></div>
+              <div class="about-us"><a class="nav-item nav-link text-dark aa" [routerLink]="['/list-turnos', '65f0eea559f713b5d8584b1c']">Turnos</a></div>
+              <div class="services"><a class="nav-item nav-link text-dark aa" href="list-paciente">Pacientes</a></div>
+              <div class="page"><a class="nav-item nav-link text-dark aa" href="list-practice">Practicas</a></div>
+              <div class="contact-us"><a class="nav-item nav-link text-dark aa" href="list-os">Obra Sociales</a></div>
+            </nav>
+          </nav>
+        </div>
+      </div>
+      <button class="button">
+          <div class="appointment-button-label">
+            <div class="make-appointment" >
+              <a *ngIf="token==null" class="nav-item nav-link text-light ms-auto aa" href="login">Log In</a>
+              <a *ngIf="token!=null" (click)="cerrarSec()" class="nav-item nav-link text-light ms-auto aa" href="#">Log Out</a>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+      </button>
     </div>
   </div>
-</nav>
-<router-outlet></router-outlet>
+</header>
 
+<router-outlet></router-outlet>

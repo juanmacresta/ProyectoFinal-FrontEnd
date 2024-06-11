@@ -6,3 +6,299 @@
     transform: translateY(-3px) rotateX(10deg);
     color: #EDDEA4 !important;;
 }
+
+.home {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    align-items: flex-end;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--button-size);
+    color: var(--text);
+}
+.home1 {
+    position: relative;
+    line-height: 160%;
+}
+.footer,
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: var(--body-3);
+}
+.about-us {
+    white-space: nowrap;
+}
+.about-us,
+.contact-us,
+.page,
+.services {
+    position: relative;
+    line-height: 160%;
+}
+.contact-us {
+    white-space: nowrap;
+}
+.menu {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--body-2-size);
+    color: var(--primary);
+    font-family: var(--body-3);
+}
+.menu-wrapper {
+    margin: 0;
+    flex: 1;
+    flex-direction: column;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+}
+.logo-and-menu,
+.logo-wrapper,
+.menu-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.logo-and-menu {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 31.5px;
+}
+.logo-wrapper {
+    width: 703px;
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+}
+.make-appointment {
+    height: 13px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--body-3);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
+.appointment-button-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-5) 0 0;
+}
+.arrow-right-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-21xl);
+    background-color: var(--color-darkslategray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.header,
+.header-bottom,
+.header-bottom1 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.header-bottom1 {
+    width: 1140px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+.header,
+.header-bottom {
+    align-self: stretch;
+    box-sizing: border-box;
+}
+.header-bottom {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    font-size: var(--heading-4-size);
+}
+.header {
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 36px;
+    gap: 36px;
+    text-align: left;
+    font-size: var(--body-3-size);
+    color: var(--primary);
+    font-family: var(--body-3);
+}
+.happy {
+    font-weight: 800;
+}
+.dental {
+    font-weight: 300;
+}
+.happydental {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 160%;
+    white-space: nowrap;
+    font-family: inherit;
+}
+.logo-separator {
+    width: 1px;
+    height: 37px;
+    position: relative;
+    border-right: 1px solid var(--gray);
+    box-sizing: border-box;
+}
+.logo-separator-wrapper {
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+}
+.header-top {
+    align-self: stretch;
+    background-color: var(--aquamarine);
+    overflow: hidden;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: 431px;
+}
+
+.header-top,
+.icon-list-2,
+.icon-list-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.icon-list-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    max-width: 100%;
+}
+
+.map-pin-icon {
+    align-self: stretch;
+    width: 16px;
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 22px;
+}
+
+.jl-danau-bratan {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+.icon-list-11 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    min-width: 106px;
+}
+
+.phone-mail-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.phone-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.website {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+.contact-separator-child {
+    width: 1px;
+    height: 17px;
+    position: relative;
+    border-right: 1px solid var(--primary);
+    box-sizing: border-box;
+}
+.contact-separator {
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+}
+
+.mail-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mail-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.hihappydentalcom {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+.header,
+.header-bottom,
+.header-bottom1 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}

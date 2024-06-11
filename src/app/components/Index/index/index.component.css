@@ -1,0 +1,2124 @@
+.map-pin-icon {
+    align-self: stretch;
+    width: 16px;
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 22px;
+}
+
+.jl-danau-bratan {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+
+.icon-list-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    max-width: 100%;
+}
+
+.phone-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.phone-mail-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.website {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+.icon-list-11 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    min-width: 106px;
+}
+.contact-separator-child {
+    width: 1px;
+    height: 17px;
+    position: relative;
+    border-right: 1px solid var(--primary);
+    box-sizing: border-box;
+}
+.contact-separator {
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+}
+
+.mail-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mail-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.hihappydentalcom {
+    position: relative;
+    line-height: 160%;
+    white-space: nowrap;
+}
+
+.header-top,
+.icon-list-2,
+.icon-list-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.icon-list-3 {
+    flex: 1;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    min-width: 109px;
+}
+
+.header-top,
+.icon-list-2 {
+    max-width: 100%;
+}
+
+.icon-list-2 {
+    width: 374px;
+    justify-content: flex-start;
+    gap: 21.5px;
+}
+.header-top {
+    align-self: stretch;
+    background-color: var(--aquamarine);
+    overflow: hidden;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: 431px;
+}
+.happy {
+    font-weight: 800;
+}
+.dental {
+    font-weight: 300;
+}
+.happydental {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 160%;
+    white-space: nowrap;
+    font-family: inherit;
+}
+.logo-separator {
+    width: 1px;
+    height: 37px;
+    position: relative;
+    border-right: 1px solid var(--gray);
+    box-sizing: border-box;
+}
+.logo-separator-wrapper {
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+}
+.home1 {
+    position: relative;
+    line-height: 160%;
+}
+.about-us {
+    white-space: nowrap;
+}
+.about-us,
+.contact-us,
+.page,
+.services {
+    position: relative;
+    line-height: 160%;
+}
+.contact-us {
+    white-space: nowrap;
+}
+.menu {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--body-2-size);
+    color: var(--primary);
+    font-family: var(--body-3);
+}
+.menu-wrapper {
+    margin: 0;
+    flex: 1;
+    flex-direction: column;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+}
+.logo-and-menu,
+.logo-wrapper,
+.menu-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.logo-and-menu {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 31.5px;
+}
+.logo-wrapper {
+    width: 703px;
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+}
+.make-appointment {
+    height: 13px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--body-3);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
+.appointment-button-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-5) 0 0;
+}
+.arrow-right-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-21xl);
+    background-color: var(--color-darkslategray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.header,
+.header-bottom,
+.header-bottom1 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.header-bottom1 {
+    width: 1140px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+.header,
+.header-bottom {
+    align-self: stretch;
+    box-sizing: border-box;
+}
+.header-bottom {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    font-size: var(--heading-4-size);
+}
+.header {
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 36px;
+    gap: 36px;
+    text-align: left;
+    font-size: var(--body-3-size);
+    color: var(--primary);
+    font-family: var(--body-3);
+}
+.sub-heading {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.heading,
+.hero-paragraph {
+    position: relative;
+    display: inline-block;
+}
+.heading {
+    margin: 0;
+    align-self: stretch;
+    height: 182px;
+    font-size: 76px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: inherit;
+}
+.hero-paragraph {
+    height: 87px;
+    flex: 1;
+    line-height: 160%;
+    max-width: 100%;
+}
+.hero-description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 26px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--button-size);
+    color: var(--gray-light);
+}
+.make-appointment1 {
+    height: 13px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--body-3);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+}
+.hero-button-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-5) 0 0;
+}
+.arrow-right-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button1,
+.sub-heading-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-21xl);
+    background-color: var(--color-darkslategray-100);
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+.sub-heading-parent {
+    width: 580px;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 100%;
+}
+.hero-image-placeholder {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: var(--cyan-2);
+}
+.image-decoration-single {
+    width: 100px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-100);
+}
+.image-decoration-duplicate,
+.image-decoration-element {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-100);
+}
+.image-decoration-duplicate {
+    background-color: var(--color-turquoise-100);
+}
+.image-decorations {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.image-decorations-child,
+.image-decorations-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--gray-light);
+}
+.image-decorations-item {
+    background-color: var(--white);
+}
+.image-decorations1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.hero-image-wrapper,
+.image-decoration {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.image-decoration {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: column;
+}
+.hero-image-wrapper {
+    margin-bottom: -187px;
+    height: 300px;
+    width: 300px;
+    flex-direction: row;
+}
+.hero,
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.hero-section {
+    flex: 1;
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-167xl) 0 var(--padding-167xl) var(--padding-131xl);
+    background-image: url(./public/1-hero-section@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    gap: var(--gap-xl);
+}
+.hero {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-101xl);
+    text-align: left;
+    font-size: var(--heading-6-size);
+    color: var(--white);
+    font-family: var(--body-3);
+}
+.feature-one-placeholder {
+    width: 100px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-turquoise-100);
+}
+.feature-one-decoration-element {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--gray-light);
+}
+.feature-one-decoration-element1 {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray-100);
+    height: 100px;
+    flex: 1;
+    position: relative;
+    min-width: 60px;
+}
+.feature-one-decorations {
+    width: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.image-child {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: var(--color-turquoise-100);
+    display: none;
+}
+.image {
+    height: 552px;
+    width: 456px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 352px 0 0;
+    box-sizing: border-box;
+    background-image: url(./public/image@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 456px;
+    max-width: 100%;
+}
+.sub-heading1 {
+    height: 13px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 500;
+    display: inline-block;
+}
+.feature-one-paragraph,
+.heading1 {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+}
+.heading1 {
+    margin: 0;
+    height: 156px;
+    font-size: var(--heading-1-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--primary);
+}
+.feature-one-paragraph {
+    height: 87px;
+    line-height: 160%;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.experienced-dentist {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.highlight-description {
+    align-self: stretch;
+    height: 52px;
+    position: relative;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.highlight-elements,
+.highlight-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.highlight-label {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+}
+.highlight-elements {
+    flex: 1;
+    gap: var(--gap-base);
+    min-width: 177px;
+}
+.thumb-up-background,
+.vector-icon {
+    position: absolute;
+    bottom: 8.33%;
+    left: 8.33%;
+}
+.vector-icon {
+    height: 83.33%;
+    width: 82.08%;
+    top: 8.33%;
+    right: 9.58%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.thumb-up-background {
+    height: 45.83%;
+    width: 20.83%;
+    top: 45.83%;
+    right: 70.83%;
+    background-color: var(--white);
+    z-index: 1;
+}
+.thumbs-up {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon1 {
+    background-color: var(--secondary);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 38px;
+}
+.affordable-pricing {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.text {
+    align-self: stretch;
+    height: 52px;
+    position: relative;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.affordable-pricing-parent,
+.highlight-elements1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.affordable-pricing-parent {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+}
+.highlight-elements1 {
+    flex: 1;
+    gap: var(--gap-base);
+    min-width: 177px;
+}
+.feature-one-details,
+.feature-one-highlight {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.feature-one-highlight {
+    flex-direction: row;
+    gap: var(--gap-25xl);
+    font-size: var(--heading-5-size);
+    color: var(--primary);
+}
+.feature-one-details {
+    flex-direction: column;
+    gap: var(--gap-13xl);
+    color: var(--text);
+}
+.feature-one,
+.features,
+.sub-heading-group {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.sub-heading-group {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    min-width: 382px;
+}
+.feature-one,
+.features {
+    flex-direction: row;
+}
+.feature-one {
+    width: 1140px;
+    justify-content: flex-start;
+    gap: var(--gap-77xl);
+}
+.features {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 240px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--button-size);
+    color: var(--secondary);
+    font-family: var(--body-3);
+}
+.heading2,
+.sub-heading2 {
+    height: 13px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 500;
+    display: inline-block;
+}
+.heading2 {
+    margin: 0;
+    align-self: stretch;
+    height: 156px;
+    font-size: var(--heading-1-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--primary);
+}
+.service-one-header {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    min-width: 560px;
+    max-width: 100%;
+}
+.icon2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 100px;
+}
+.teeth-whitening {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.service-one-summary {
+    align-self: stretch;
+    height: 52px;
+    position: relative;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.teeth-whitening-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.service-one-description,
+.service-one-icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.service-one-description {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    min-width: 234px;
+}
+.service-one-icon-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xl);
+}
+.service-separator {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--gray);
+    box-sizing: border-box;
+}
+.service-one,
+.service-one-details {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.service-one-details {
+    width: 484px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-25xl);
+    min-width: 484px;
+    font-size: var(--heading-5-size);
+    color: var(--primary);
+}
+.service-one {
+    width: 1160px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+}
+  .service-two-summary {
+    align-self: stretch;
+    height: 87px;
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+}
+.image1 {
+    border: 0;
+    background-color: transparent;
+    height: 340px;
+    width: auto;
+    outline: 0;
+    align-self: stretch;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url(./public/image1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.service-two-description,
+.service-two-description-wrappe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.service-two-description {
+    align-self: stretch;
+    gap: 64px;
+}
+.service-two-description-wrappe {
+    flex: 1;
+    padding: 21px 0 0;
+    box-sizing: border-box;
+    min-width: 364px;
+    max-width: 100%;
+  }
+.icon3 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 100px;
+}
+.service-two-short,
+.teeth-checkup {
+    align-self: stretch;
+    position: relative;
+}
+.teeth-checkup {
+    line-height: 140%;
+    font-weight: 600;
+}
+.service-two-short {
+    height: 52px;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.service-two-label-values {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.service-two-footer-elements,
+.service-two-labels {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.service-two-labels {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    min-width: 234px;
+}
+.service-two-footer-elements {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xl);
+}
+.service-two-footer-elements1 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--gray);
+    box-sizing: border-box;
+}
+.icon4 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 100px;
+}
+.teeth-implants,
+.text1 {
+    align-self: stretch;
+    position: relative;
+}
+.teeth-implants {
+    line-height: 140%;
+    font-weight: 600;
+}
+.text1 {
+    height: 52px;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.teeth-implants-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.service-two-footer-elements-inner,
+.service-two-footer-elements2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.service-two-footer-elements-inner {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    min-width: 234px;
+}
+.service-two-footer-elements2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xl);
+}
+.service-two-footer-elements3 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--gray);
+    box-sizing: border-box;
+}
+.make-appointment2 {
+    height: 13px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--body-3);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+}
+.service-two-button-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-5) 0 0;
+}
+.arrow-right-icon2 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-21xl);
+    background-color: var(--color-darkslategray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.service-two-content,
+.service-two-details,
+.service-two-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.service-two-footer {
+    width: 484px;
+    flex-direction: column;
+    gap: 43.5px;
+    min-width: 484px;
+    font-size: var(--heading-5-size);
+    color: var(--primary);
+}
+.service-two-content,
+.service-two-details {
+    flex-direction: row;
+}
+.service-two-details {
+    width: 1160px;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-77xl);
+}
+.service-two-content {
+    align-self: stretch;
+}
+.shape {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: var(--primary);
+}
+.service-two,
+.services-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.service-two {
+    align-items: flex-end;
+    gap: var(--gap-xl);
+    margin-top: -1px;
+    color: var(--text);
+}
+.services-content {
+    align-items: flex-start;
+}
+.heading3,
+.sub-heading3 {
+    height: 13px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 500;
+    display: inline-block;
+}
+.heading3 {
+    margin: 0;
+    align-self: stretch;
+    height: 156px;
+    font-size: var(--heading-1-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--primary);
+}
+.testimonial-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    gap: var(--gap-xl);
+}
+.icon5,
+.review {
+    position: relative;
+}
+.icon5 {
+    width: 84px;
+    height: 67px;
+}
+.review {
+    align-self: stretch;
+    height: 87px;
+    line-height: 160%;
+    display: inline-block;
+}
+.testimonial-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    color: var(--text);
+}
+.image-icon {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.jose-turner {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.customer {
+    position: relative;
+    font-size: var(--body-2-size);
+    line-height: 160%;
+    color: var(--text);
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.reviewer-info {
+    flex-direction: column;
+    padding: 12px 0 0;
+}
+.reviewer,
+.reviewer-info,
+.testimonial1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.reviewer {
+    flex-direction: row;
+    gap: var(--gap-13xl);
+    font-size: var(--heading-4-size);
+    color: var(--primary);
+}
+.testimonial1 {
+    flex: 1;
+    flex-direction: column;
+    gap: 34px;
+    min-width: 364px;
+    max-width: 100%;
+}
+.image-mask,
+.shape-icon {
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+.shape-icon {
+    top: 11px;
+    left: 812px;
+    height: 200px;
+    object-fit: contain;
+}
+.image-mask {
+    top: 563px;
+    left: 556px;
+    background-color: var(--aquamarine);
+    height: 100px;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+.review-image-container {
+    margin-top: -11px;
+    margin-left: -456px;
+    height: 630px;
+    width: 950px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 209%;
+}
+.image2,
+.services1,
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.services1,
+.testimonial {
+    width: 1160px;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: 124px;
+}
+.services1 {
+    width: 1310px;
+    flex-direction: column;
+    padding: 0 0 var(--padding-101xl) var(--padding-xl);
+    gap: 120px;
+    text-align: left;
+    font-size: var(--button-size);
+    color: var(--secondary);
+    font-family: var(--body-3);
+}
+.shape1,
+.text2 {
+    position: relative;
+}
+.text2 {
+    width: 560px;
+    height: 87px;
+    line-height: 160%;
+    display: none;
+    max-width: 100%;
+}
+.shape1 {
+    align-self: stretch;
+    width: 100px;
+    background-color: var(--white);
+}
+.background-shape {
+    align-self: stretch;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.heading4,
+.sub-heading4 {
+    height: 13px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 500;
+    display: inline-block;
+}
+.heading4 {
+    margin: 0;
+    width: 806px;
+    height: 156px;
+    font-size: var(--heading-1-size);
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--primary);
+    max-width: 100%;
+}
+.process-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+.icon6 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.make-appointment3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.step-description {
+    align-self: stretch;
+    height: 58px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.icon-box-1,
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+}
+.title {
+    align-self: stretch;
+}
+.icon-box-1 {
+    width: 330px;
+    max-width: 100%;
+}
+.icon7 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.expert-dental-care,
+.text3 {
+    align-self: stretch;
+    position: relative;
+}
+.expert-dental-care {
+    margin: 0;
+    font-size: inherit;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+}
+.text3 {
+    height: 58px;
+    font-size: var(--button-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.icon-box-2,
+.title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+}
+.title1 {
+    align-self: stretch;
+}
+.icon-box-2 {
+    width: 330px;
+    max-width: 100%;
+}
+.icon8 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.radiate-confidence,
+.text4 {
+    align-self: stretch;
+    position: relative;
+}
+.radiate-confidence {
+    line-height: 140%;
+    font-weight: 600;
+}
+.text4 {
+    height: 58px;
+    font-size: var(--button-size);
+    line-height: 160%;
+    color: var(--text);
+    display: inline-block;
+}
+.icon-box,
+.icon-box-3,
+.title2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+}
+.title2 {
+    align-self: stretch;
+}
+.icon-box,
+.icon-box-3 {
+    width: 330px;
+    max-width: 100%;
+}
+.icon-box {
+    width: 1160px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    font-size: var(--heading-4-size);
+    color: var(--primary);
+}
+.text5 {
+    width: 806px;
+    height: 58px;
+    position: relative;
+    line-height: 160%;
+    color: var(--text);
+    display: none;
+    max-width: 100%;
+}
+.make-appointment4 {
+    height: 13px;
+    position: relative;
+    font-size: var(--button-size);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--body-3);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+}
+.make-appointment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs-5) 0 0;
+}
+.arrow-right-icon3 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button-container,
+.button3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.button3 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-15xl) var(--padding-xl)
+      var(--padding-21xl);
+    background-color: var(--color-darkslategray-100);
+    gap: var(--gap-3xs);
+}
+.button-container {
+    align-self: stretch;
+}
+.shape-icon1 {
+    width: 200px;
+    flex: 1;
+    position: relative;
+    max-height: 100%;
+    object-fit: contain;
+}
+.how-it-works,
+.process-action {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.process-action {
+    height: 184px;
+    align-items: flex-end;
+    gap: var(--gap-xl);
+}
+.how-it-works {
+    background-color: var(--gray-light);
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-131xl);
+    box-sizing: border-box;
+    gap: 76px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--button-size);
+    color: var(--secondary);
+    font-family: var(--body-3);
+}
+.happy1 {
+    font-weight: 800;
+}
+.dental1 {
+    font-weight: 300;
+    color: var(--aquamarine);
+}
+.happydental1,
+.slogan {
+    position: relative;
+    line-height: 160%;
+}
+.happydental1 {
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+.slogan {
+    align-self: stretch;
+    height: 78px;
+    display: inline-block;
+}
+.icon-01,
+.icon-02,
+.icon-03 {
+    height: 44px;
+    width: 44px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 44px;
+}
+.brand-description,
+.brand-info,
+.icon9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.icon9 {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+.brand-description,
+.brand-info {
+    flex-direction: column;
+}
+.brand-description {
+    align-self: stretch;
+    gap: var(--gap-xl);
+    font-size: var(--body-2-size);
+    color: var(--gray);
+}
+.brand-info {
+    width: 367px;
+    gap: var(--gap-13xl);
+    min-width: 367px;
+    max-width: 100%;
+}
+.heading5 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.about-us1,
+.contact-us1,
+.home2,
+.services2 {
+    position: relative;
+    line-height: 160%;
+}
+.navigation,
+.text-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text-link {
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--body-2-size);
+    color: var(--gray);
+}
+.navigation {
+    gap: var(--gap-13xl);
+}
+.heading6 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.dental-filling,
+.teeth-checkup1,
+.teeth-implants1,
+.teeth-whitening1 {
+    position: relative;
+    line-height: 160%;
+}
+.services3,
+.text-link1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text-link1 {
+    align-self: stretch;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--body-2-size);
+    color: var(--gray);
+}
+.services3 {
+    flex: 1;
+    gap: var(--gap-13xl);
+    min-width: 81px;
+}
+.heading7 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.blog-guide,
+.customer-stories,
+.documentation,
+.help-center {
+    position: relative;
+    line-height: 160%;
+}
+.resources,
+.text-link2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text-link2 {
+    align-self: stretch;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--body-2-size);
+    color: var(--gray);
+}
+.resources {
+    flex: 1;
+    gap: var(--gap-13xl);
+    min-width: 86px;
+}
+.navigation-links {
+    width: 573px;
+    justify-content: flex-start;
+    gap: var(--gap-77xl);
+    min-width: 573px;
+    font-size: var(--heading-5-size);
+}
+.footer-container,
+.footer-content,
+.navigation-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.footer-content {
+    width: 1140px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+.footer-container {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+}
+.copyrigt-2023 {
+    position: relative;
+    line-height: 160%;
+}
+.separator {
+    width: 1px;
+    height: 11px;
+    position: relative;
+    border-right: 1px solid var(--primary);
+    box-sizing: border-box;
+}
+.legal-separator {
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+}
+.design-by-tokotema {
+    position: relative;
+    line-height: 160%;
+}
+.copyright2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs-5);
+    max-width: 100%;
+}
+.terms-of-use {
+    width: 88px;
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+}
+.frame-child {
+    width: 1px;
+    height: 11px;
+    position: relative;
+    border-right: 1px solid var(--primary);
+    box-sizing: border-box;
+}
+.copyright-inner {
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+}
+.privacy-policy {
+    width: 92px;
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+}
+.copyright,
+.copyright1,
+.copyright3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.copyright3 {
+    justify-content: flex-start;
+    gap: var(--gap-3xs-5);
+}
+.copyright,
+.copyright1 {
+    max-width: 100%;
+}
+.copyright1 {
+    width: 1140px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+.copyright {
+    align-self: stretch;
+    background-color: var(--aquamarine);
+    overflow: hidden;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--body-3-size);
+    color: var(--primary);
+}
+.footer,
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: var(--body-3);
+}
+.footer {
+    align-self: stretch;
+    background-color: var(--secondary);
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 76px 0 0;
+    box-sizing: border-box;
+    gap: 90px;
+    max-width: 100%;
+    z-index: 1;
+    font-size: var(--heading-4-size);
+    color: var(--white);
+}
+.home {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    align-items: flex-end;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--button-size);
+    color: var(--text);
+}
+.mapa-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 0;
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
+
+.card-footer p {
+    margin-bottom: 0;
+    color: #495057;
+}
+@media screen and (max-width: 1200px) {
+    .header-top {
+      flex-wrap: wrap;
+      gap: 215px;
+    }
+    .feature-one {
+      gap: var(--gap-29xl);
+    }
+    .service-one-details,
+    .service-one-header {
+      flex: 1;
+    }
+    .service-one {
+      flex-wrap: wrap;
+    }
+    .service-two-details {
+      gap: var(--gap-29xl);
+    }
+    .testimonial {
+      gap: 62px;
+    }
+    .services1 {
+      padding-bottom: var(--padding-59xl);
+      box-sizing: border-box;
+    }
+    .icon-box {
+      flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-wrapper {
+      display: none;
+    }
+    .heading {
+      font-size: 61px;
+      line-height: 73px;
+    }
+    .hero,
+    .hero-section {
+      box-sizing: border-box;
+    }
+    .hero-section {
+      flex-wrap: wrap;
+      padding: 121px var(--padding-xl);
+    }
+    .hero {
+      padding-bottom: var(--padding-59xl);
+    }
+    .image {
+      flex: 1;
+    }
+    .heading1 {
+      font-size: var(--font-size-26xl);
+      line-height: 63px;
+    }
+    .feature-one {
+      flex-wrap: wrap;
+    }
+    .features {
+      padding-bottom: 156px;
+      box-sizing: border-box;
+    }
+    .heading2 {
+      font-size: var(--font-size-26xl);
+      line-height: 63px;
+    }
+    .service-two-footer {
+      flex: 1;
+    }
+    .service-two-details {
+      flex-wrap: wrap;
+    }
+    .heading3 {
+      font-size: var(--font-size-26xl);
+      line-height: 63px;
+    }
+    .jose-turner {
+      font-size: var(--font-size-7xl);
+      line-height: 36px;
+    }
+    .image2 {
+      flex: 1;
+    }
+    .testimonial {
+      flex-wrap: wrap;
+    }
+    .services1 {
+      padding-bottom: var(--padding-32xl);
+      box-sizing: border-box;
+    }
+    .heading4 {
+      font-size: var(--font-size-26xl);
+      line-height: 63px;
+    }
+    .expert-dental-care,
+    .happydental1,
+    .make-appointment3,
+    .radiate-confidence {
+      font-size: var(--font-size-7xl);
+      line-height: 36px;
+    }
+    .happydental1 {
+      line-height: 41px;
+    }
+    .brand-info,
+    .navigation-links {
+      flex: 1;
+    }
+    .footer-content {
+      flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header-top {
+      gap: 108px;
+    }
+    .logo-and-menu {
+      gap: var(--gap-base);
+    }
+    .header {
+      gap: 18px;
+    }
+    .image {
+      padding-top: 229px;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .feature-one-highlight {
+      flex-wrap: wrap;
+      gap: var(--gap-3xl);
+    }
+    .feature-one-details {
+      gap: var(--gap-base);
+    }
+    .feature-one {
+      gap: var(--gap-5xl);
+    }
+    .service-one-header {
+      min-width: 100%;
+    }
+    .service-one-details {
+      gap: var(--gap-3xl);
+      min-width: 100%;
+    }
+    .service-two-description {
+      gap: var(--gap-13xl);
+    }
+    .service-two-footer {
+      gap: var(--gap-3xl);
+      min-width: 100%;
+    }
+    .service-two-details {
+      gap: var(--gap-5xl);
+    }
+    .testimonial1 {
+      gap: 17px;
+    }
+    .image2 {
+      min-width: 100%;
+    }
+    .testimonial {
+      gap: 31px;
+    }
+    .services1 {
+      gap: 60px;
+    }
+    .how-it-works {
+      gap: 38px;
+      padding-left: 75px;
+      box-sizing: border-box;
+    }
+    .navigation-links {
+      flex-wrap: wrap;
+      gap: var(--gap-29xl);
+      min-width: 100%;
+    }
+    .copyright1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer {
+      gap: 45px;
+      padding-top: 49px;
+      box-sizing: border-box;
+    }
+}
+  
+@media screen and (max-width: 450px) {
+    .icon-list-2 {
+      flex-wrap: wrap;
+    }
+    .header-top {
+      gap: 54px;
+    }
+    .menu {
+      display: none;
+    }
+    .sub-heading {
+      font-size: var(--body-2-size);
+      line-height: 22px;
+    }
+    .heading {
+      font-size: 46px;
+      line-height: 55px;
+    }
+    .hero,
+    .hero-section {
+      box-sizing: border-box;
+    }
+    .hero-section {
+      padding-top: var(--padding-60xl);
+      padding-bottom: var(--padding-60xl);
+    }
+    .hero {
+      padding-bottom: var(--padding-32xl);
+    }
+    .heading1 {
+      font-size: var(--font-size-15xl);
+      line-height: 47px;
+    }
+    .affordable-pricing,
+    .experienced-dentist {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .sub-heading-group {
+      min-width: 100%;
+    }
+    .features {
+      padding-bottom: 101px;
+      box-sizing: border-box;
+    }
+    .heading2 {
+      font-size: var(--font-size-15xl);
+      line-height: 47px;
+    }
+    .teeth-whitening {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .service-one-icon-wrapper {
+      flex-wrap: wrap;
+    }
+    .service-two-description {
+      gap: var(--gap-base);
+    }
+    .service-two-description-wrappe {
+      min-width: 100%;
+    }
+    .teeth-checkup {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .service-two-footer-elements {
+      flex-wrap: wrap;
+    }
+    .teeth-implants {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .service-two-footer-elements2 {
+      flex-wrap: wrap;
+    }
+    .heading3 {
+      font-size: var(--font-size-15xl);
+      line-height: 47px;
+    }
+    .jose-turner {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .reviewer {
+      gap: var(--gap-base);
+    }
+    .testimonial1 {
+      min-width: 100%;
+    }
+    .testimonial {
+      gap: 15px;
+    }
+    .services1 {
+      gap: var(--gap-11xl);
+      padding-bottom: 33px;
+      box-sizing: border-box;
+    }
+    .heading4 {
+      font-size: var(--font-size-15xl);
+      line-height: 47px;
+    }
+    .expert-dental-care,
+    .make-appointment3,
+    .radiate-confidence {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .how-it-works {
+      gap: 19px;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .happydental1 {
+      font-size: var(--font-size-lgi);
+      line-height: 31px;
+    }
+    .brand-info {
+      gap: var(--gap-base);
+      min-width: 100%;
+    }
+    .heading5,
+    .heading6,
+    .heading7 {
+      font-size: var(--font-size-lgi);
+      line-height: 27px;
+    }
+    .navigation-links {
+      gap: var(--gap-5xl);
+    }
+    .copyright2 {
+      flex-wrap: wrap;
+    }
+    .footer {
+      gap: var(--gap-3xl);
+    }
+}
+  
